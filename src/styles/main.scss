@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #262626;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #595959;
+  font-size: 14px;
+  background-color: #f0f2f5;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,微软雅黑,Arial,sans-serif;
+}
+
+ul,ol{list-style-type:none;}
+
+.relative,
+.rela {
+  position: relative;
+}
+
+.absolute,
+.abso {
+  position: absolute;
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.col-center {
+  align-items: center;
+}
+
+.col-top {
+  align-items: flex-start;
+}
+
+.col-bottom {
+  align-items: flex-end;
+}
+
+.row-center {
+  justify-content: center;
+}
+
+.row-left {
+  justify-content: flex-start;
+}
+
+.row-right {
+  justify-content: flex-end;
+}
+
+.row-between {
+  justify-content: space-between;
+}
+
+.row-around {
+  justify-content: space-around;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
